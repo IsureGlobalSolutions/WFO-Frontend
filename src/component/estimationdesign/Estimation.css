@@ -1,0 +1,357 @@
+ 
+.form-control{
+    color: #212529 !important;
+}
+.card {
+    border-color: #e9e6e1;
+    background-color: #ffffff;
+    border-radius: 0.75rem;
+  }
+  .form-control, .form-select {
+    background-color: #ffffff;
+    font-size: 15px;
+}
+.form-control::placeholder {
+  color: #A3A3A3;
+}
+form-control:focus, .form-select:focus {
+    box-shadow: 0 0 10px rgba(25, 24, 24, 0.15);
+    background-color: #ffffff;
+  
+}
+  .card .card-header, .card .card-body, .card .card-footer {
+    padding: 1.5rem;
+  }
+ 
+  .card .card-title {
+    color: #0707078f;
+    font-weight: 600;
+}
+  .ddlsize {
+    width: 113px;
+}
+.text-primary {
+    color: #FFA600 !important;
+}
+.text-truncate{
+  font-family: Poppins !important;
+font-weight: 700;
+font-size: 22px;
+line-height: 13.33px;
+letter-spacing: 0px;
+color:#FFFFFF;
+}
+.shadow {
+    box-shadow: 0 0.5rem 1rem rgba(25, 26, 28, 0.15) !important;
+  }
+
+  .text-danger {
+    --bs-text-opacity: 1;
+    color: rgba(220, 53, 69)  !important;
+}
+.col-form-label {
+    padding-top: 1.37;
+    padding-bottom: 1.37;
+    margin-bottom: 0;
+    font-size: inherit;
+    line-height: 1.5;
+}
+.nav-tabs.tab-card {
+    padding-left: 0 1.5rem !important;
+}
+.nav-tabs.tab-card .nav-link.active, .nav-tabs.tab-card .nav-link:hover {
+  border-bottom:6px solid #4880FF ;
+  color: #4D4D4D;
+}
+
+.btn.btn-outline-primary {
+    color: #86b7fe !important;
+    border-color: #86b7fe !important;
+}
+button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled) {
+    cursor: pointer;
+}
+.btn.btn-outline-danger {
+    color: #FC5A69 !important;
+    border-color: #FC5A69 !important;
+}
+.btn.btn-outline-info {
+    color: #4FB8C9 !important;
+    border-color: #4FB8C9 !important;
+}
+.nav-tabs.tab-card .nav-link {
+  color: #525252;
+  background-color: transparent;
+  border-bottom: 7px solid transparent;
+  margin-bottom: -4px;
+  background-color: #E9E9E9;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.form-control[type=file]:not(:disabled):not([readonly]) {
+    cursor: pointer;
+}
+.form-control[type=file] {
+    overflow: hidden;
+}
+.btn.btn-primary {
+    background-color: #1B66B8;
+    border-color: #1B66B8;
+}
+h6, .h6 {
+    font-size: 1rem;
+}
+  .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.h6 , h6{
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 600 !important;
+  line-height: 1.2;
+}
+.btn.btn-outline-secondary {
+    border-color: #e9e6e1;
+}
+.form-control:disabled, .form-select:disabled {
+    cursor: not-allowed;
+}
+.table-bordered-custom {
+    border: 1px solid #e9e6e1;
+  }
+  
+  .table-bordered-custom th,
+  .table-bordered-custom td {
+    border: 1px solid #e9e6e1;
+  }
+  .table-container {
+    overflow-x: 20%; 
+  }
+  
+  .data-table {
+    /* width: 100%;  */
+    /* table-layout: fixed; */
+    border-collapse: collapse;
+  }
+  
+  .data-row {
+    border: 1px solid #ddd;
+  }
+  
+  .data-cell {
+    border: 1px solid #ddd;
+    padding: 8px;
+    white-space: nowrap; /* Prevent cell content from wrapping */
+  }
+  
+  .modal.show .modal-dialog{
+    padding: 30px !important;
+    
+  }
+  .bg-lighttest {
+    background-color: #d1d1d1;
+  }
+  .sticky-column {
+    position: sticky;
+    background-color: white; /* Optional: to maintain background color */
+    z-index: 1; /* Ensure it is above other rows */
+  }
+  
+  .sticky-column:nth-child(1) {
+    left: 0;
+  }
+  
+  .sticky-column:nth-child(2) {
+    left: 63px; /* Adjust this value as per your column width */
+  }
+  
+.ddlsizereport {
+    width: 230px;
+}
+.chart-color1 {
+    background-color:#4880FF!important;
+}
+.text-muted {
+    color: #9399a1 !important;
+}
+.chart-text-color1 {
+    color:#4880FF !important;
+}
+.text-secondary {
+    color:#4880FF !important;
+}
+.table tr th {
+    color: #131212;
+    font-size: 19px;
+    white-space: nowrap;
+}
+
+  .estimationreport{
+    background-color: #f8f6f2;
+}
+  
+
+
+.editable-input {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid grey ;
+  background: none;
+  /* color: inherit; */
+  text-align: center; 
+}
+.red-background{
+  background-color: red;
+}
+.childsection h1{
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: -0.11px;
+  color: #202224;
+  }
+  
+  .childbutton{
+      border-radius: 10px 10px 0px 0px;
+      /* padding: 15px 40px 15px 40px; */
+      background-color: #FFFFFF;
+      border: 1px solid #D6D6D6;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #222222;
+  white-space: nowrap;
+  }
+
+  .childbutton.active{
+      border-radius: 10px;
+      border-radius: 10px 10px 0px 0px;
+      background-color: #4880FF;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+  }
+
+
+  /* TabbedContent.css */
+
+/* Main container */
+.tabbed-container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Tab navigation */
+.tab-nav {
+  display: flex;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.tab-nav button {
+  padding: 0.5rem 1rem;
+  background: none;
+  border: none;
+  border-bottom: 3px solid transparent;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.tab-nav button.active {
+  border-bottom-color: #0d6efd;
+  color: #0d6efd;
+  font-weight: 500;
+}
+
+/* Tab content */
+.tab-content {
+  width: 100%;
+}
+
+.tab-pane {
+  display: none;
+}
+
+.tab-pane.active {
+  display: block;
+}
+
+/* Horizontal scroll container */
+.horizontal-scroll-container {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 1rem;
+  margin-top: 1rem;
+  border: 1px solid #dee2e6;
+  border-top: none;
+  border-radius: 0 0 0.25rem 0.25rem;
+}
+
+/* Table container inside scrollable area */
+.table-container {
+  min-width: 800px; /* Adjust based on your content */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .tab-nav {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    padding-bottom: 1px; /* Prevents scrollbar from hiding content */
+  }
+  
+  .horizontal-scroll-container {
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+  }
+}
+
+/* Horizontal scroller container */
+.file-Width {
+  width: 1600px; /* Full width of parent */
+  overflow-x: auto; /* Enable horizontal scrolling */
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+  scrollbar-width: auto; /* Standard property (works in Firefox) */
+  scrollbar-color: #888 #f1f1f1; /* Scrollbar colors (Firefox) */
+  
+  /* For Webkit browsers (Chrome, Safari) */
+  &::-webkit-scrollbar {
+    height: 8px;
+  }
+  &::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+  }
+  &::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+}
+
+/* Content that needs scrolling */
+.scroll-content {
+  width: 1600px; /* Fixed width that causes scrolling */
+  min-height: 10px; /* Adjust as needed */
+  display: flex; /* For horizontal layout */
+  /* Or use display: block if you have block elements */
+}
+
+@media (max-width : 1600px) {
+  .file-Width {
+    width: 1200px;
+  }
+  .scroll-content {
+    width: 1200px;
+  }
+}

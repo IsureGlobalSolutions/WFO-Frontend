@@ -1,0 +1,87 @@
+
+
+.tool__container {
+  position: relative;
+  display: inline-block;
+}
+
+.tool__container .tool__text {
+  visibility: hidden;
+  width: 180px;
+  background-color: orange;
+  color: white;
+  font-size: 13px;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 999;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -89px;
+  opacity: 0;
+  border: 1px solid orange;
+
+  /* transition: opacity 0.3s; */
+  transform: scale(0.2); /* Initial zoom level */
+  transition: opacity 0.3s, transform 0.5s; /* Added transform transition */
+}
+
+.tool__container .tool__text::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 48%;
+  margin-left: -5px;
+  border-width: 8px;
+  border-style: solid;
+  border-color: orange transparent transparent transparent;
+}
+
+.tool__container:hover .tool__text {
+  visibility: visible;
+  opacity: 1;
+  transform: scale(1); /* Zoom in to original size */
+}
+
+.formwidth1 {
+  width: 21%;
+}
+
+.formwidth2 {
+  width: 79%;
+}
+
+@media screen and (max-width: 1600px) {
+  .formwidth1 {
+    width: 26%;
+  }
+  .formwidth2 {
+    width: 74%;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .formwidth1 {
+    width: 27%;
+  }
+  .formwidth2 {
+    width: 72%;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .formwidth1 {
+    width: 30%;
+  }
+  .formwidth2 {
+    width: 69%;
+  }
+}
+/* @media screen and (max-width: 1200px) {
+  .formwidth1 {
+    width: 30%;
+  }
+  .formwidth2 {
+    width: 69%;
+  }
+} */
+

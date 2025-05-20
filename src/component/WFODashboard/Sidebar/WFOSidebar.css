@@ -1,0 +1,168 @@
+/* Sidebar container */
+.wfosidebar{
+    width: 250px;
+    background-color: #f4f4f4;
+    height: 100vh;
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: "Poppins", sans-serif;
+
+  }
+  .sidebar-text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0.3px;
+    color: #202224 !important;
+    white-space: nowrap;
+    font-family: "Poppins", sans-serif;
+
+  }
+  .sidebar-button.active.sidebar-text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0.3px;
+    color: #ffff;
+    font-family: "Poppins", sans-serif;
+
+  }
+  .logo-container {
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+
+  }
+ 
+  .wfosidebar-logo {
+    width: 100px; 
+    height: auto;
+  }
+.sidebar-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 13px;
+    border-radius: 6px;
+    font-family: "Poppins", sans-serif;
+
+
+  }
+  
+  .sidebar-button.active{
+    width: 229px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 7px;
+    padding: 13px;
+    border-radius: 6px;
+    background: #4880FF;
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+
+  }
+  .sidebar-button.active.sidebar-icon{
+    fill: #FFFFFF;
+  }
+  
+  .sidebar-content .sidebar-icon {
+    width: 18px;
+    height: 18px;
+    fill: black;
+    margin-right: 10px;
+    font-family: "Poppins", sans-serif;
+
+  }
+  
+  .sidebar-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    font-family: "Poppins", sans-serif;
+
+  }
+  .sidebar-button.active .sidebar-icon{
+    fill: #ffff;
+  }
+.sidebar-button.active .sidebar-text {
+  color: white !important; /* Add !important to override other styles */
+}
+.sidebar-submenu{
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+
+    align-items: start;
+    justify-content: start;
+    margin-left: 30px;
+
+}
+.sidebar-sub-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 13px;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    margin-left: 2px;
+    letter-spacing: 0.3px;
+    color: #6F6F6F ;
+    white-space: nowrap;
+    font-family: "Poppins", sans-serif;
+
+
+}
+/* Add these to your WFOSidebar.css */
+
+/* Blue hover buttons active state */
+.sidebar-button.blue-hover.active {
+  background-color: #FFFFFF;
+  
+}
+
+/* Red hover buttons active state */
+.sidebar-button.red-hover.active {
+  background-color: #ff6b6b;
+  color: white;
+}
+
+/* Submenu active state */
+.sidebar-sub-button.active {
+  background-color: #1e90ff;
+  color: white;
+}
+.sidebar-sub-button.active{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 7px;
+    padding: 13px ;
+    margin-left: 2px;
+    border-radius: 6px;
+    background: #4880FF;
+    color: #FFFFFF;
+    white-space: nowrap;
+    font-family: "Poppins", sans-serif;
+
+  }
+  .sidebar-close {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 8px;
+    margin-top: 18px;
+    font-family: "Poppins", sans-serif;
+  }
+  @media (min-width: 768px) {
+    .sidebar-close {
+      display: none; /* hide on medium and larger screens */
+    }
+  }

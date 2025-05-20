@@ -1,0 +1,204 @@
+.icontext {
+    /* Set the flex direction to column */
+  width: initial;
+  height: initial;
+  flex: 1 1 0%;
+  /* justify-content: flex-start; */
+  /* align-items: center; */
+  margin-bottom: 0px;
+}
+.sidebaricon:hover {
+  background-color: rgb(207, 216, 229);  
+  border: 1px solid #fff; /* Change the border color on hover */
+  cursor: pointer;
+   /* Adjust the padding on hover for the desired gap */
+}
+.sidebaricon {
+  width: 35px;
+  height: 33px;
+  border-radius: 8px;
+  border: 1px solid transparent; /* Add a border to maintain the size */
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  padding: 6px; /* Add padding to create a gap between the border and the icon */
+}
+.dropdown2{
+  width: 75px;
+  position: relative;
+
+  /* background-color: rgb(164, 219, 223); */
+  /* padding: 10px 16px 10px 0; */
+  border-radius: 10px;
+}
+.toggle{
+  color: rgb(46, 95, 232);
+  /* border-bottom: 2px  #fff; */
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  /* letter-spacing: -0.px; */
+  flex-shrink: 0;
+  border-bottom: 1px dashed    ;
+  
+}
+.toggle1{
+  color: rgb(52, 71, 101);    /* border-bottom: 2px  #fff; */
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  /* letter-spacing: -0.px; */
+  flex-shrink: 0;
+  
+}
+.menu{
+  box-shadow: rgba(37, 40, 43, 0.12) 0px 1px 10px;
+  width: 170px;
+  min-width: 100px;
+  padding-top: 8px;
+  white-space: nowrap;
+  /* z-index: 1000003; */
+}
+.tabledata{
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+ 
+  text-align: left;
+  color: rgb(52, 71, 101);
+  font-weight: 600;
+}
+
+
+.profile-pic-container {
+  /* Adjust the size of the circle */
+  height: 26px; /* Adjust the size of the circle */
+  overflow: hidden;
+  border-radius: 50%;
+/* Adjust the space between the picture and the name */
+}
+
+.profile-pic {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.red-background {
+  background-color: rgb(86, 12, 160) !important;
+}
+.your-card2{
+  position: fixed;
+  left: 0;
+  top: -90px;
+  width: 350px;
+  height: 520px;
+  transform: translate(55.2px, 196px);
+  min-width: max-content;
+  z-index: 10007;
+  box-shadow: rgba(37, 40, 43, 0.12) 0px 1px 10px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  padding: 0px;
+  font-size: 14px;
+  line-height: 14px;
+  /* color: white; */
+  overflow: hidden;
+  /* ... (other styles) */
+}
+.name{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.1px;
+  color: rgb(36, 44, 57);
+  padding: 8px;
+  text-align: left;
+}
+.name1{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.1px;
+  padding: 8px;
+  text-align: left;
+  color:'#344765'
+}
+
+.sidebaricon {
+width: 35px;
+height: 33px;
+border-radius: 8px;
+border: 1px solid transparent; /* Add a border to maintain the size */
+overflow: hidden;
+display: flex;
+align-items: center;
+justify-content: center;
+transition: all 0.3s ease;
+padding: 6px; /* Add padding to create a gap between the border and the icon */
+}
+
+.sidebaricon:hover {
+background-color: rgb(207, 216, 229);  
+border: 1px solid #fff; /* Change the border color on hover */
+cursor: pointer;
+ /* Adjust the padding on hover for the desired gap */
+}
+.layout2icon2{
+width: 35px;
+height: 33px;
+border-radius: 8px;
+border: 1px solid transparent; /* Add a border to maintain the size */
+overflow: hidden;
+display: flex;
+align-items: center;
+justify-content: center;
+transition: all 0.3s ease;
+padding: 6px;
+}
+.layout2icon2:hover {
+background-color: rgb(207, 216, 229);  
+border: 1px solid #fff; /* Change the border color on hover */
+cursor: pointer;
+ /* Adjust the padding on hover for the desired gap */
+}
+.linetag{
+border-top: 1px solid rgb(220, 226, 235);
+  margin: 0px 10px;
+  opacity: none;
+}
+.your-card3{
+  box-shadow: rgba(95, 106, 126, 0.2) 0px 1px 1px, rgba(9, 30, 66, 0.08) 0px 0px 9px;
+    position: relative;
+    width: 314px;
+    border-radius: 10px;
+    padding: 12px 5px 5px 5px;
+    cursor: pointer;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+}
+.name2{
+  font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    color: rgb(52, 71, 101);
+    text-align: left;
+}
+.imgtag1{
+  width: 50px;
+  height: 50px;
+}
+
+
+@media (min-width: 1600px) {
+ 
+  .your-card2 {
+     top:320px;
+  }
+}

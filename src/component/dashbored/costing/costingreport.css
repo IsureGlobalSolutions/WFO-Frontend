@@ -1,0 +1,28 @@
+thead, tbody, tfoot, tr, td, th {
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0;
+}
+.btn.btn-outline-danger:hover {
+    color: #FC5A69;
+    border-color: white;
+}
+.costing{
+    background-color: #f8f6f2;
+    height: 100vh;
+    padding: 20px;
+}
+
+.table th{
+    font-size: 18px;
+    font-weight: 700;
+}
+.btn.btn-primary {
+    background-color: #1B66B8;
+    border-color: #1B66B8;
+}
+.text-secondary{
+    color: #1B66B8 !important;
+    font-size: 20px;
+    font-weight: 700;
+}

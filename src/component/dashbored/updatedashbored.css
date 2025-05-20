@@ -1,0 +1,74 @@
+.sub, sup {
+    position: relative;
+    font-size: 0.75em;
+    line-height: 0;
+    vertical-align: baseline;
+}
+.childsection h1{
+font-weight: 600;
+font-size: 25px;
+line-height: 100%;
+letter-spacing: -0.11px;
+color: #202224;
+}
+.childbutton{
+    border-radius: 10px 10px 0px 0px;
+    background-color: #FFFFFF;
+    border: 1px solid #D6D6D6;
+    font-weight: 500;
+    font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #222222;
+white-space: nowrap;
+}
+
+  
+.childbutton.active{
+    border-radius: 10px;
+    border-radius: 10px 10px 0px 0px;
+    
+    background-color: #4880FF;
+font-weight: 500;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #FFFFFF;
+}
+.label-text{
+    /* font-family: Nunito Sans; */
+font-weight: 600;
+font-size: 15.85px;
+line-height: 100%;
+letter-spacing: 0px;
+color: #606060;
+}
+.text-danger {
+    color: #1B66B8 !important;
+}
+.btnsecondary{
+    background-color: #05080a;
+    color: white;
+}
+.btnprimary{
+    background-color: #1B66B8;
+    color: white;
+}
+.btnprimary:hover{
+    border: 1px solid black;
+    color: black;
+}
+.btnsecondary:hover{
+    border: 1px solid black;
+    color: black;
+}
+.text{
+    font-size: 17px;
+    color: rgb(97, 94, 92);
+}
+
+.form-check-input:checked{
+    background-color: #4880FF !important ;
+    border: #4880FF !important;
+     color: #4880FF !important;
+}

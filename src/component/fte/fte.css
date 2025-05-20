@@ -1,0 +1,650 @@
+.fte-label{
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  color: #606060;
+}
+  span.selected-text {
+    display: inline-block;
+    max-width: 121px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.text-warning{
+  color: #1B66B8 !important;
+  font-family: Nunito, sans-serif;
+}
+  .addbutton1{
+    /* backgroundColor: 'red', color: 'white', fontFamily: 'Roboto sans-serif', fontWeight: '600', fontSize: '17px' ,padding:'6px'} */
+    /* background-color: rgb(220, 0, 0);
+     */
+     background-color: rgba(255, 0, 0, 0.81);
+     font-family: 'Roboto' sans-serif;
+     font-weight: 500;
+     font-size: 14px;
+     /* padding: 15px ; */
+     /* width: 260px ; */
+    /* color: white; */
+    
+
+
+  }  
+  .cardcard7{
+    left: 0;
+    margin-top: 10px;
+    margin-right: 20px;
+    min-width: max-content;
+    width: 20%;
+    height: 12%;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 14px;
+    line-height: 14px;
+    overflow: hidden;
+    border: 0.3px dashed;
+    border-color: #e9e6e1;
+  }
+  .juCkip{
+    position: fixed;
+    inset: 0px;
+    z-index: 2001;
+    box-sizing: border-box;
+  }
+  .jiZwRo {
+    inset: 0px;
+    z-index: -1;
+    position: fixed;
+    touch-action: none;
+    background-color: rgba(243, 242, 245, 0.4);}
+  .labeltag{
+    color: #393939;
+    font-family: 'Roboto' sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.6px;
+  }
+  .headingfte1{
+   line-height: 20px;
+   color: #344765;
+   font-family: 'Roboto' sans-serif;
+   font-weight: 600;
+   font-size: 16px;
+   letter-spacing: 1px;
+  }
+  .headingfte2{
+   
+    line-height: 21px;
+    color: #344765;
+    font-family: 'Roboto' sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+   }
+   .headingfte3{
+   
+    line-height: 21px;
+    color: #344765;
+    font-family: 'Roboto' sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.6px;
+   }
+  .table-bordered > :not(caption) > * {
+    border: none !important;
+}
+  .inputtag1{
+    border-radius:5px;
+    border: 1px solid black;
+    background-color: white;
+    padding: 8px ;
+     width: 260px ;
+  }
+  .addbuttonfte:hover {
+    background-color: rgba(0, 0, 0, 0.116);
+    font-family: 'Roboto' sans-serif;
+     font-weight: 500;
+     font-size: 14px;
+    color: black;
+  }
+  .popup {
+    /* position: fixed; */
+    
+    /* background-color: #e3d8b8; */
+   
+    /* opacity: 0; */
+     /* initially hide popup */
+    transition: opacity 0.2s ease; /* add transition effect */
+  }
+  
+  .popup.show {
+    opacity: 3; /* show popup when it has the 'show' class */
+  }
+  
+  .inputtaglabel{
+    border-radius:5px 0px 0px 5px;
+    border: 1px solid rgba(0, 0, 0, 0.23);
+    background-color: white;
+    padding: 0px 0px 0px 4px ;
+     width: 3rem ;
+     height: 35px;
+  }
+  .inputlabel2{
+
+    border-radius:5px;
+    font-size: 14px;
+    border: 1px solid rgba(0, 0, 0, 0.23);
+    background-color: white;
+    padding: 9px 6px 9px 0px ;
+     width: 95px ;
+     height: 3.7vh;
+  }
+  .hover-icon .add-text {
+    display: none; /* Hide the text by default */
+  }
+  
+  .hover-icon:hover .add-text {
+    display: inline; /* Show the text on hover */
+  }
+  
+  .icon {
+    display: inline; /* Show the icon by default */
+  }
+  
+  .hover-icon:hover .icon {
+    display: inline; /* Show the icon on hover */
+  }
+  
+  .hide {
+    display: none; /* Hide the text when condition is false */
+  }
+  
+  .inputtag3{
+    border-radius:5px;
+    font-size: 12px;
+    border: 1px solid black;
+    background-color: white;
+    padding: 7px 6px 7px 0px ;
+     width: 77px ;
+  }
+  .addbuttonfte{
+    /* style={{
+      fontSize:'14px',
+      fontFamily:'Roboto ',
+      fontWeight:'600',
+      border:'1px solid black',
+      color:'rgb(36, 44, 57)',
+      padding:'5px',
+      width:'50px',
+      backgroundColor:'rgb(243, 242, 245)'
+  }} */
+  border-radius:5px;
+    /* font-size: 12px; */
+    border: 1px solid rgba(0, 0, 0, 0.23);
+    /* letter-spacing: 0.6px; */
+  font-size: 14;
+  width: 46px;
+  padding: 9px;
+  background-color:rgb(243, 242, 245) ;
+  }
+.card5{
+    /* position: fixed; */
+    left: 0;
+    
+    /* margin: 30px; */
+    /* top: 100px; */
+    /* width: ; */
+    height: 148px;
+    /* transform: translate(55.2px, 196px); */
+    min-width: max-content;
+    z-index: 10007;
+    /* box-shadow: rgba(37, 40, 43, 0.12) 0px 1px 10px; */
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    /* padding: 0px;
+     */
+    font-size: 14px;
+    line-height: 14px;
+    /* color: white; */
+    overflow: hidden;
+    /* ... (other styles) */
+  }
+  .deletebuttonfte{
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    box-sizing: border-box;
+    transition-property: background-color, color, border-color;
+  
+    
+    /* color: rgb(36, 44, 57); */
+    font-family: 'Roboto' sans-serif;
+    background-color: rgb(227, 226, 228);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 1;
+    height: 30px;
+    padding: 10px 16px;
+  }
+  .card7{
+    /* position: fixed; */
+    /* left: 0; */
+    margin-top: 10px;
+    /* margin-left: 15px; */
+    margin-right: 30px;
+    /* margin: 30px; */
+    /* top: 100px; */
+    
+    /* height: 152px; */
+    /* transform: translate(55.2px, 196px); */
+    /* min-width: max-content; */
+    /* z-index: 10007; */
+    /* box-shadow: rgba(37, 40, 43, 0.12) 0px 1px 10px; */
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    /* padding: 0px;
+     */
+    font-size: 13px;
+    line-height: 14px;
+    /* color: white; */
+    overflow: hidden;
+    /* ... (other styles) */
+  }
+  .historycard{
+    /* position: fixed; */
+    /* left: 0; */
+    margin-top: 10px;
+    /* margin-left: 15px; */
+    /* margin-right: 30px; */
+    /* margin: 30px; */
+    /* top: 100px; */
+    width: 76%;
+    /* height: 152px; */
+    /* transform: translate(55.2px, 196px); */
+    /* min-width: max-content; */
+    /* z-index: 10007; */
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    /* padding: 0px;
+     */
+    font-size: 13px;
+    line-height: 14px;
+    /* color: white; */
+    overflow: hidden;
+    /* ... (other styles) */
+  }
+  .card8{
+
+    /* position: fixed; */
+    left: 0;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    /* margin: 30px; */
+    /* top: 100px; */
+    width: 20%;
+    height: 440px;
+    /* transform: translate(55.2px, 196px); */
+    min-width: max-content;
+    /* z-index: 10007; */
+    /* box-shadow: rgba(37, 40, 43, 0.12) 0px 1px 10px; */
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    /* padding: 0px;
+     */
+    font-size: 14px;
+    line-height: 14px;
+    /* color: white; */
+    overflow: hidden;
+    /* ... (other styles) */
+  
+}
+  .card6{
+
+        /* position: fixed; */
+        left: 0;
+        margin-top: 10px;
+        /* margin-left: 28px; */
+        margin-right: 20px;
+        /* margin: 30px; */
+        /* top: 100px; */
+        /* width: 20%; */
+        /* height: 440px; */
+        /* transform: translate(55.2px, 196px); */
+        min-width: max-content;
+        /* z-index: 10007; */
+        /* box-shadow: rgba(37, 40, 43, 0.12) 0px 1px 10px; */
+        border-radius: 10px;
+        background-color: rgb(255, 255, 255);
+        /* padding: 0px;
+         */
+        font-size: 14px;
+        line-height: 14px;
+        /* color: white; */
+        overflow: hidden;
+        /* ... (other styles) */
+      
+  }
+  .submitbutton{
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    box-sizing: border-box;
+    transition-property: background-color, color, border-color;
+  
+    
+    color: rgb(36, 44, 57);
+    font-family: 'Roboto' sans-serif;
+    background-color: rgba(224, 220, 220, 0.921);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 2;
+    height: 30px;
+    padding: 20px 16px;
+  }
+  .css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root {
+   
+    height: 34px;
+    width: 110px;
+  }
+  .css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root {
+      /* padding-top: 20px;  */
+      padding-top: none;   
+  }
+/* Default styles without padding */
+.css-nxo287-MuiInputBase-input-MuiOutlinedInput-input , .css-nxo287-MuiInputBase-input-MuiOutlinedInput-input{
+  font: inherit;
+  letter-spacing: inherit;
+  color: currentColor;
+  padding: 4px 0 5px;
+  border: 0;
+  box-sizing: content-box;
+  background: none;
+  width: 100%;
+  -webkit-tap-highlight-color: transparent;
+  /* -webkit-animation-name: mui-auto-fill-cancel; */
+  /* -webkit-animation-duration: 10ms; */
+  padding-right: 0;
+}
+/* Custom styles to override Material-UI styles */
+.custom-padding {
+  padding: 2px; /* Adjust the padding value as needed */
+}
+.MuiFormLabel-root.MuiInputLabel-root.MuiInputLabel-formControl.MuiInputLabel-animated.MuiInputLabel-sizeMedium.MuiInputLabel-outlined.MuiFormLabel-colorPrimary.MuiInputLabel-root.MuiInputLabel-formControl.MuiInputLabel-animated.MuiInputLabel-sizeMedium.MuiInputLabel-outlined.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root,
+.custom-line-height-none {
+  line-height: none;
+  -webkit-transform: translate(5px, 7px) scale(1);
+}
+/* Apply the custom styles to the specified Material-UI classes */
+.MuiInputBase-input.MuiOutlinedInput-input.MuiInputBase-inputAdornedEnd.Mui-readOnly.MuiInputBase-readOnly.css-nxo287-MuiInputBase-input-MuiOutlinedInput-input,
+.custom-padding {
+  padding-top: 0px;
+  padding: 5px 5px;
+}
+
+
+/* Media query for screens with a minimum width of 768px */
+@media (min-width: 768px) {
+  .css-nxo287-MuiInputBase-input-MuiOutlinedInput-input {
+      padding: 5px;
+  }
+}
+
+  /* .timepicker{
+    width:'120px'
+  } */
+  .formiconplus{
+    height: 20px;
+    width: 23px;
+    color: rgba(84, 47, 159, 0.438);
+    cursor: pointer;
+  }
+  .buttonstyle{
+    background-color: rgb(226, 226, 237);
+    border: #344765;
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Roboto' sans-serif;
+    font-weight: 600;
+    border-radius: 5px;
+  }
+  .fte{
+    font-size: 18px;
+    /* margin: 12px; */
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    /* color: rgb(118, 109, 108);; */
+    line-height: 22px;
+  }
+  .email1{
+    font-size: 14px;
+    letter-spacing: 0.6px;
+    /* margin: 5px; */
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(118, 109, 108);;
+    background-color: 'rgb(243, 242, 245)';
+    line-height: 22px;
+  }
+  .textfte{
+    margin: 20px;
+    padding-top: 20px;
+
+  }
+  /* .tablecontainer{
+    max-height: 470px;
+    overflow-y: auto;
+  } */
+  .inputtag{
+    border: '10px solid black';
+    border-radius: 5px ;
+    /* backgroundColor: 'white',  */
+   padding: 5px;
+  }
+  @media (min-width: 768px) {
+    /* .tablecontainer{
+      max-height: 270px;
+      overflow-y: auto;
+    } */
+    .historycard{
+      /* position: fixed; */
+      /* left: 0; */
+      margin-top: 10px;
+      /* margin-left: 15px; */
+      /* margin-right: 30px; */
+      /* margin: 30px; */
+      /* top: 100px; */
+      width: 60%;
+      /* height: 152px; */
+      /* transform: translate(55.2px, 196px); */
+      /* min-width: max-content; */
+      /* z-index: 10007; */
+      border-radius: 10px;
+      background-color: rgb(255, 255, 255);
+      /* padding: 0px;
+       */
+      font-size: 13px;
+      line-height: 14px;
+      /* color: white; */
+      overflow: hidden;
+      /* ... (other styles) */
+    }
+    .card6{
+
+      /* position: fixed; */
+      left: 0;
+      margin-top: 10px;
+      /* margin-left: 28px; */
+      margin-right: 20px;
+      /* margin: 30px; */
+      /* top: 100px; */
+      /* width: 21%; */
+      /* height: 440px; */
+      /* transform: translate(55.2px, 196px); */
+      min-width: max-content;
+      /* z-index: 10007; */
+      /* box-shadow: rgba(37, 40, 43, 0.12) 0px 1px 10px; */
+      border-radius: 10px;
+      /* background-color: rgb(255, 255, 255); */
+      /* padding: 0px;
+       */
+      font-size: 14px;
+      line-height: 14px;
+      /* color: white; */
+      overflow: hidden;
+      /* ... (other styles) */
+    
+}
+  }
+  
+  @media (min-width: 992px) {
+    /* .tablecontainer{
+      max-height: 420px;
+      overflow-y: auto;
+    } */
+    .historycard{
+      /* position: fixed; */
+      /* left: 0; */
+      margin-top: 10px;
+      /* margin-left: 15px; */
+      /* margin-right: 30px; */
+      /* margin: 30px; */
+      /* top: 100px; */
+      width: 72%;
+      /* height: 152px; */
+      /* transform: translate(55.2px, 196px); */
+      /* min-width: max-content; */
+      /* z-index: 10007; */
+      /* box-shadow: rgba(37, 40, 43, 0.12) 0px 1px 10px; */
+      border-radius: 10px;
+      /* background-color: rgb(255, 255, 255); */
+      /* padding: 0px;
+       */
+      font-size: 13px;
+      line-height: 14px;
+      /* color: white; */
+      overflow: hidden;
+      /* ... (other styles) */
+    }
+    .card6{
+
+      /* position: fixed; */
+      left: 0;
+      margin-top: 10px;
+      /* margin-left: 28px; */
+      margin-right: 20px;
+      /* margin: 30px; */
+      /* top: 100px; */
+      /* width: 20%; */
+      /* height: 440px; */
+      /* transform: translate(55.2px, 196px); */
+      min-width: max-content;
+      /* z-index: 10007; */
+      /* box-shadow: rgba(37, 40, 43, 0.12) 0px 1px 10px; */
+      border-radius: 10px;
+      /* background-color: rgb(255, 255, 255); */
+      /* padding: 0px;
+       */
+      font-size: 14px;
+      line-height: 14px;
+      /* color: white; */
+      overflow: hidden;
+      /* ... (other styles) */
+    
+}
+    
+  }
+  
+  @media (min-width: 1600px) {
+   
+    .historycard{
+      /* position: fixed; */
+      /* left: 0; */
+      margin-top: 10px;
+      /* margin-left: 15px; */
+      /* margin-right: 30px; */
+      /* margin: 30px; */
+      /* top: 100px; */
+      width: 78%; 
+      /* height: 152px; */
+      /* transform: translate(55.2px, 196px); */
+      /* min-width: max-content; */
+      /* z-index: 10007; */
+      border-radius: 10px;
+      /* background-color: rgb(255, 255, 255); */
+      /* padding: 0px;
+       */
+      font-size: 13px;
+      line-height: 14px;
+      /* color: white; */
+      overflow: hidden;
+      /* ... (other styles) */
+    }
+    /* style={{ maxHeight: '370px' , overflowY: 'auto' }} */
+    /* .tablecontainer{
+      max-height: 670px;
+      overflow-y: auto;
+    } */
+    .card6{
+
+      /* position: fixed; */
+      left: 0;
+      margin-top: 10px;
+      /* margin-left: 28px; */
+      margin-right: 20px;
+      /* margin: 30px; */
+      /* top: 100px; */
+      /* width: 12%; */
+      /* height: 440px; */
+      /* transform: translate(55.2px, 196px); */
+      min-width: max-content;
+      /* z-index: 10007; */
+      /* box-shadow: rgba(37, 40, 43, 0.12) 0px 1px 10px; */
+      border-radius: 10px;
+      background-color: rgb(255, 255, 255);
+      /* padding: 0px;
+       */
+      font-size: 14px;
+      line-height: 14px;
+      /* color: white; */
+      overflow: hidden;
+      /* ... (other styles) */
+    
+}
+  }
+  @media(min-width: 1900px){
+    .css-yiavyu-MuiBackdrop-root-MuiDialog-backdrop{
+          background-color:none;
+    }
+    .css-3dah0e-MuiModal-root-MuiDialog-root{
+      position: fixed;
+      z-index: 1300;
+      right: 2px;
+      bottom: 2px; 
+      top: 2px;
+      left: 2px;
+    }
+  }
+  .tbody, td, tfoot, th, thead, tr{
+    border: none;
+  }
+  .widtharea{
+    width: 100px !important;
+  }

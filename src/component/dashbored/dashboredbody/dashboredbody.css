@@ -1,0 +1,150 @@
+.cardbodyheight {
+  height: 100%;
+}
+
+.cardstyle {
+  background-color: #fff !important;
+  border: 1px dashed rgba(32, 29, 29, 0.1);
+
+  /* border: 1px solid black; */
+  border-radius: 10px;
+}
+.overflow-scroll {
+  scrollbar-color: #1B66B8 #ffffff !important;
+  /* overflow: scroll !important; */
+}
+.tablestyle td{
+  color: #212121 !important;
+  vertical-align: middle;
+}
+.topnavbar-card p{
+  font-size: 15px;
+font-weight: 400;
+line-height: 100%;
+letter-spacing: 0%;
+  color: #000000A3;
+}
+.topnavbar-card h1{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+    color: #000000A3;
+}
+.formwidth1-section{
+  width: 200px;
+  height: 100vh;
+  position: fixed;
+  gap: 0px;
+  border: 1px solid #D7D7D7;
+  opacity: 0px;
+  border-radius: 0px 0px 20px 0px;
+  box-shadow: 0px 4px 14.7px 0px #00000026;
+  background-color: #FFFFFF;
+}
+.formwidth2-section{
+  margin-left: 200px;
+}
+
+.cardbody2 {
+  height: 103%;
+  background-color: #fff !important;
+  border: 1px dashed rgba(32, 29, 29, 0.1);
+
+  /* border: 1px solid black; */
+  border-radius: 10px;
+}
+
+.textmute {
+  font-size: 14px;
+  color: #9399a1 !important;
+}
+
+.textmute1 {
+  font-size: 11px;
+}
+
+.nav-tabs.tab-page-toolbar {
+  border: 1px solid red;
+  overflow: hidden;
+  padding: 3px;
+}
+
+.nav-tabs.tab-page-toolbar .nav-link.active {
+  background-color: orange;
+  color: #ffffff;
+}
+
+.nav-tabs.tab-page-toolbar .nav-link {
+  color: black;
+
+}
+
+.rounded-pill {
+  /* border-radius: var(--bs-border-radius-pill) !important; */
+  border-radius: green !important;
+
+
+}
+
+.tab {
+  border-bottom: 1px dashed rgba(32, 29, 29, 0.1);
+
+}
+
+.cardbodybutton {
+  /* border-color: var(--border-color); */
+  border-color: #fff;
+  /* background-color: var(--card-color);
+     */
+  background-color: #fff;
+  border: 1px dashed rgba(32, 29, 29, 0.1);
+  border-radius: 0.75rem;
+}
+.toolbarbody {
+  overflow-y: auto;
+  background-color: #F8F6F2;
+}
+
+@media (max-width: 1100px) {
+  .toolbarbody {
+    max-height: 429px;
+  }
+}
+@media (max-width: 1199px) {
+  .toolbarbody {
+    max-height: 431px;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1400px) {
+  .toolbarbody {
+    max-height: 430px;
+  }
+}
+
+@media (min-width: 1401px) and (max-width: 1599px) {
+  .toolbarbody {
+    max-height: 520px;
+  }
+}
+/* @media (min-width: 1401px) and (max-width: 1599px) {
+  .toolbarbody {
+    max-height: 520px;
+  }
+} */
+@media (min-width: 1600px) and (max-width: 1799px) {
+  .toolbarbody {
+    max-height: 644px;
+  }
+}
+@media (min-width: 1700px) and (max-width: 1899px) {
+  .toolbarbody {
+    max-height: 730px;
+  }
+}
+@media (min-width: 1800px) and (max-width: 1999px) {
+  .toolbarbody {
+    max-height: 730px;
+  }
+}

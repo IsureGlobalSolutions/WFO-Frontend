@@ -1,0 +1,64 @@
+/* Deletemodal.css */
+.modal-body-custom {
+    position: relative;
+  }
+  
+  .delete-title {
+    font-weight: 500; 
+    font-size: 18px; 
+    line-height: 100%; 
+    letter-spacing: 0px; 
+    color: #DA3646;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .modal-footer-custom {
+    border-top: 2px solid #97979733;
+    background-color: #F8F8F8;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
+  
+  .message-text {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0px;
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .button-container {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .cancel-button-modal {
+    border: 1.13px solid #7575754D;
+    padding: 10px 30px;
+    background: transparent;
+    border-radius: 4px;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+  }
+  
+  .delete-button-modal {
+    padding: 10px 30px;
+    background-color: #DC3449;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+  }
+  
+  .cancel-button-modal:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .delete-button-modal:hover {
+    background-color: #c12b3d;
+  }

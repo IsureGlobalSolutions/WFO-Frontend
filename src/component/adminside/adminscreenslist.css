@@ -1,0 +1,36 @@
+.addlist{
+    background-color: #fff;
+    border:   1px dashed  rgba(32, 29, 29, 0.1) ;
+    border-radius: 0.75rem ;
+    overflow: auto ;
+    max-height: 504px;
+    padding: 0px
+;
+}
+.designationlist{
+  background-color: #f8f6f2;
+  height: 83vh;
+}
+.buttfoot {
+    background-color: none;
+    color: black;
+    border-color: transparent;
+  }
+  
+  .buttfoot:hover {
+    background-color: black;
+    color: white;
+  }
+  .pagination-custom .page-link {
+  background-color: black;
+  color: white;
+}
+
+.pagination-custom .page-link:hover {
+  background-color: #343a40; /* Darken the color on hover */
+}
+
+.pagination-custom .page-item.active .page-link {
+  background-color: #343a40; /* Darken the color for the active page */
+  border-color: #343a40;
+}
