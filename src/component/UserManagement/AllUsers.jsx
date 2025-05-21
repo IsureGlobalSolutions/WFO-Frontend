@@ -395,11 +395,10 @@ const UserList = ({ selectedModule }) => {
   }, [users, selectedColumn, searchValue]);
 
   // Pagination calculations
-  const totalPages = Math.ceil(filteredData.length / itemsPerPage) || 0;
+  const totalPages = Math.ceil(filteredData?.length / itemsPerPage) || 0;
   const startIndex = (currentPage - 1) * itemsPerPage;
-  const endIndex = Math.min(startIndex + itemsPerPage, filteredData.length || 0);
-  const paginatedData = filteredData.slice(startIndex, endIndex) || [];
-
+  const endIndex = Math.min(startIndex + itemsPerPage, filteredData?.length || 0);
+const paginatedData = (Array.isArray(filteredData) ? filteredData : []).slice(startIndex, endIndex);
   // Reset to first page when search changes
   useEffect(() => {
     setCurrentPage(1);
@@ -557,7 +556,7 @@ const UserList = ({ selectedModule }) => {
                 </tr>
               </thead>
               <tbody className="text-center ms-2 tablestyle" style={{ fontSize: "14px" }}>
-                {filteredData.length > 0 ? (
+                {filteredData?.length > 0 ? (
                   paginatedData.map((item, id) => (
                     <tr key={item.id || id}>
                       <td style={{ borderBottom: '1px solid #dee2e6' }}>
@@ -665,7 +664,7 @@ const UserList = ({ selectedModule }) => {
           handlePageChange={handlePageChange}
           startIndex={startIndex}
           endIndex={endIndex}
-          totalItems={filteredData.length}
+          totalItems={filteredData?.length}
         />
       </div>
     </>

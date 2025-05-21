@@ -234,18 +234,28 @@ function SignupCom() {
                   </div>
 
                   {/* Email */}
-                  <div className="col-12">
-                    <label className="form-label formtext">Email address</label>
-                    <input
-                      type="email"
-                      className={`form-control p-3 form-control-lg ${errors.email ? 'is-invalid' : ''}`}
-                      name="email"
-                      value={formData.email}
-                      onChange={handleChange}
-                      placeholder="Type email here"
-                    />
-                    {errors.email && <div className="invalid-feedback">{errors.email}</div>}
-                  </div>
+                 <div className="col-12">
+  <label className="form-label formtext">Email address</label>
+  <input
+    type="email"
+    id="email_${Date.now()}"  // Unique ID each time
+    className={`form-control p-3 form-control-lg ${errors.email ? 'is-invalid' : ''}`}
+    value={formData.email}
+    onChange={handleChange}
+    placeholder="Type email here"
+    name="email"
+    autoComplete="new-email"  // Chrome-specific hint
+    readOnly
+    onFocus={(e) => {
+      e.target.removeAttribute('readonly');
+      // Additional measure - clear any autofilled data
+      if (e.target.value !== formData.email) {
+        e.target.value = '';
+      }
+    }}
+  />
+  {errors.email && <div className="invalid-feedback">{errors.email}</div>}
+</div>
 
                   {/* Password */}
                   <div className="col-md-6">
@@ -354,7 +364,7 @@ function SignupCom() {
 
                   {/* City */}
                   <div className="col-md-6">
-                    <label className="form-label formtext">City</label>
+                    <label className="form-label formtext">Province </label>
                     <Select
                       options={cities}
                       value={selectedCity}

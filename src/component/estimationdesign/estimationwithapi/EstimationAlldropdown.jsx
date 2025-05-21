@@ -46,14 +46,7 @@ const EstimationAlldropdown = ({
         {/* Category Dropdown - Always visible */}
        
         <div className={`${getColumnClass()} mb-0 mt-0 pt-3`}>
-        <p className="pb-0" style={{ 
-            fontWeight: 600, 
-            fontSize: '15px', 
-            lineHeight: '100%', 
-            letterSpacing: '0px', 
-            color:"#606060",
-            fontFamily:"Poppins, sans-serif",
-          }}>Select Category</p>
+        <p className="pb-0 label-tag" >Select Category</p>
           <select
             id="selectcategory"
             name="selectcategory"
@@ -84,14 +77,7 @@ const EstimationAlldropdown = ({
         {/* Department Dropdown - Conditionally visible */}
         {showC && (
           <div className={`${getColumnClass()} mb-0 pt-0`}>
-              <p className="" style={{ 
-            fontWeight: 600, 
-            fontSize: '15px', 
-            lineHeight: '100%', 
-            letterSpacing: '0px', 
-            color:"#606060",
-            fontFamily:"Poppins, sans-serif",
-          }}>Select {selectedCategory || "Fields"}</p>
+              <p className="label-tag">Select {selectedCategory || "Fields"}</p>
             <select
               id="department_Dropdown"
               className="form-select"
@@ -108,7 +94,7 @@ const EstimationAlldropdown = ({
             >
               <option value="" style={{ color: '#A3A3A3' }}>Select Department</option>
               {organizationfte?.map((department) => (
-                <option key={department.id} value={department.id}>
+                <option key={department.id} value={department.id} className='label-option'>
                   {department.name}
                 </option>
               ))}
@@ -119,14 +105,7 @@ const EstimationAlldropdown = ({
         {/* FTE Dropdown - First Conditionally visible */}
         {showC && (
           <div className={`${getColumnClass()} mb-0`}>
-              <p className="" style={{ 
-            fontWeight: 600, 
-            fontSize: '15px', 
-            lineHeight: '100%', 
-            letterSpacing: '0px', 
-            color:"#606060",
-            fontFamily:"Poppins, sans-serif",
-          }}>Select FTE</p>
+              <p className="label-tag" >Select FTE</p>
             <select
               id="organizationFTE"
               className="form-select"
@@ -144,7 +123,7 @@ const EstimationAlldropdown = ({
               
               <option value="" style={{ color: '#A3A3A3' }}>Select FTE</option>
               {FTEwithid?.map((department) => (
-                <option key={department.id} value={department.id}>
+                <option key={department.id} value={department.id} className='label-option'>
                   {department.name}
                 </option>
               ))}
@@ -155,14 +134,7 @@ const EstimationAlldropdown = ({
         {/* FTE Dropdown - Second Conditionally visible */}
         {showd && (
           <div className={`${getColumnClass()} mb-0`}>
-              <p className="" style={{ 
-            fontWeight: 600, 
-            fontSize: '15px', 
-            lineHeight: '100%', 
-            letterSpacing: '0px', 
-            color:"#606060",
-            fontFamily:"Poppins, sans-serif",
-          }}>Select FTE</p>
+              <p className="label-tag">Select FTE</p>
             <select
               id="organizationFTE"
               className="form-select"
@@ -178,7 +150,7 @@ const EstimationAlldropdown = ({
             >
               <option value="" style={{ color: '#A3A3A3' }}>Select FTE</option>
               {organizationfte?.map((department) => (
-                <option key={department.id} value={department.id}>
+                <option key={department.id} value={department.id} className='label-option'>
                   {department.name}
                 </option>
               ))}
