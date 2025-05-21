@@ -227,14 +227,7 @@ useEffect(() => {
     <div className="pt-1 pb-3 mb-0 d-flex flex-wrap">
       {/* Category Dropdown */}
       <div className={`${getColumnClass()} mb-3 pe-2`}>
-        <p className="p-4 ps-0 pb-0" style={{ 
-          fontWeight: 600, 
-          fontSize: '15px', 
-          lineHeight: '100%', 
-          letterSpacing: '0px', 
-          color:"#606060",
-          fontFamily:"Poppins, sans-serif",
-        }}>Category</p>
+        <p className="p-4 ps-0 pb-0 label-tag" >Category</p>
         <select
           id="selectcategory"
           name="selectcategory"
@@ -264,14 +257,7 @@ useEffect(() => {
       {/* Department Dropdown (shown when not Organization) */}
       {showC && (
         <div className={`${getColumnClass()} mb-3 pe-2`}>
-          <p className="p-4 ps-0 pb-0" style={{ 
-            fontWeight: 600, 
-            fontSize: '15px', 
-            lineHeight: '100%', 
-            letterSpacing: '0px', 
-            color:"#606060",
-            fontFamily:"Poppins, sans-serif",
-          }}>Select {selectedCategory || "Fields"}</p>
+          <p className="p-4 ps-0 pb-0 label-tag" >Select {selectedCategory || "Fields"}</p>
           <select
             id="department_Dropdown"
             className="form-select form-select-lg"
@@ -289,7 +275,7 @@ useEffect(() => {
           >
             <option>Select {selectedCategory}</option>
             {organizationfte?.map((department) => (
-              <option key={department.id} value={department.id}>
+              <option key={department.id} value={department.id} className='label-option'>
                 {department.name}
               </option>
             ))}
@@ -300,14 +286,7 @@ useEffect(() => {
       {/* FTE Dropdown */}
       {(showC || showd) && (
         <div className={`${getColumnClass()} mb-3 pe-2`}>
-          <p className="p-4 ps-0 pb-0" style={{ 
-            fontWeight: 600, 
-            fontSize: '15px', 
-            lineHeight: '100%', 
-            letterSpacing: '0px', 
-            color:"#606060",
-            fontFamily:"Poppins, sans-serif",
-          }}>Select FTE</p>
+          <p className="p-4 ps-0 pb-0 label-tag">Select FTE</p>
           <select
             id="organizationFTE"
             className="form-select form-select-lg"
@@ -323,9 +302,9 @@ useEffect(() => {
               cursor: 'pointer',
             }}
           >
-            <option value="">Select FTE</option>
+            <option value="" className='label-form'>Select FTE</option>
             {(showd ? organizationfte : FTEwithid)?.map((department) => (
-              <option key={department.id} value={department.id} name={department.country}>
+              <option key={department.id} value={department.id} name={department.country} className='label-option'>
                 {department.name}
               </option>
             ))}
@@ -335,7 +314,9 @@ useEffect(() => {
 
       {/* File Dropdown */}
       <div className={`${getColumnClass()} mb-3 pe-2`}>
-        <p className="p-4 ps-0 pb-0" >Select File</p>
+        <p className="p-4 ps-0 pb-0 label-tag" 
+         
+        >Select File</p>
         <select
           id="organizationFTE"
           className="form-select form-select-lg"
@@ -351,9 +332,9 @@ useEffect(() => {
             cursor: 'pointer',
           }}
         >
-          <option value="">Select File</option>
+          <option value="" >Select File</option>
           {Getfilename?.map((file) => (
-            <option key={file.id} value={file.name}>
+            <option key={file.id} value={file.name} className='label-option'>
               {file.name}
             </option>
           ))}
@@ -387,14 +368,7 @@ Loading..
     <div className="card-header pt-1  mb-0 d-flex flex-wrap">
 
       <div className={`${getColumnClass()} mb-3 pe-2`}>
-        <p className="p-4 ps-0 pb-0" style={{ 
-          fontWeight: 600, 
-          fontSize: '15px', 
-          lineHeight: '100%', 
-          letterSpacing: '0px', 
-          color:"#606060",
-          fontFamily:"Poppins, sans-serif",
-        }}>Category</p>
+        <p className="p-4 ps-0 pb-0 label-tag" >Category</p>
         <select
           id="selectcategory"
           name="selectcategory"
@@ -423,14 +397,7 @@ Loading..
 
       {showC && (
         <div className={`${getColumnClass()} mb-3 pe-2`}>
-          <p className="p-4 ps-0 pb-0" style={{ 
-            fontWeight: 600, 
-            fontSize: '15px', 
-            lineHeight: '100%', 
-            letterSpacing: '0px', 
-            color:"#606060",
-            fontFamily:"Poppins, sans-serif",
-          }}>Select {selectedCategory || "Fields"}</p>
+          <p className="p-4 ps-0 pb-0 label-tag" >Select {selectedCategory || "Fields"}</p>
           <select
             id="department_Dropdown"
             className="form-select form-select-lg"
@@ -448,7 +415,7 @@ Loading..
           >
             <option>Select {selectedCategory }</option>
             {organizationfte?.map((department) => (
-              <option key={department.id} value={department.id}>
+              <option key={department.id} value={department.id} className='label-option'>
                 {department.name}
               </option>
             ))}
@@ -459,14 +426,7 @@ Loading..
       {/* FTE Dropdown */}
       {(showC || showd) && (
         <div className={`${getColumnClass()} mb-3 pe-2`}>
-          <p className="p-4 ps-0 pb-0" style={{ 
-            fontWeight: 600, 
-            fontSize: '15px', 
-            lineHeight: '100%', 
-            letterSpacing: '0px', 
-            color:"#606060",
-            fontFamily:"Poppins, sans-serif",
-          }}>Select FTE</p>
+          <p className="p-4 ps-0 pb-0 label-tag" >Select FTE</p>
           <select
             id="organizationFTE"
             className="form-select form-select-lg"
@@ -484,7 +444,7 @@ Loading..
           >
             <option value="">Select FTE</option>
             {(showd ? organizationfte : FTEwithid)?.map((department) => (
-              <option key={department.id} value={department.id} name={department.country}>
+              <option key={department.id} value={department.id} name={department.country} className='label-option'>
                 {department.name}
               </option>
             ))}
@@ -494,14 +454,7 @@ Loading..
 
       {/* File Dropdown */}
       <div className={`${getColumnClass()} mb-3 pe-2`}>
-        <p className="p-4 ps-0 pb-0" style={{ 
-          fontWeight: 600, 
-          fontSize: '15px', 
-          lineHeight: '100%', 
-          letterSpacing: '0px', 
-          color:"#606060",
-          fontFamily:"Poppins, sans-serif",
-        }}>Select File</p>
+        <p className="p-4 ps-0 pb-0 label-tag" >Select File</p>
         <select
           id="organizationFTE"
           className="form-select form-select-lg"
@@ -519,7 +472,7 @@ Loading..
         >
           <option value="">Select File</option>
           {Getfilename?.map((file) => (
-            <option key={file.id} value={file.name}>
+            <option key={file.id} value={file.name} className='label-option'>
               {file.name}
             </option>
           ))}

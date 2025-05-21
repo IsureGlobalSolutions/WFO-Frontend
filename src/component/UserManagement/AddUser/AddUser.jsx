@@ -386,16 +386,24 @@ function AddUser({ onChange = () => {}, showEmployeeComponent, selectedModule, o
                   </div>
                   <div className="col-md-4 col-12">
                     <label htmlFor="Email" className="form-label">Email Address *</label>
-                    <input
-                      name="Email"
-                      id="Email"
-                      type="email"
-                      className={`form-control ${errors.Email ? 'is-invalid' : ''}`}
-                      placeholder="Email address"
-                      value={personalInfo.Email}
-                      onChange={handlePersonalInfoChange}
-                      onBlur={() => handleBlur('Email')}
-                    />
+                   <input
+  name="Email"
+  id={`Email-${Math.random().toString(36).substring(2, 9)}`} // Random ID to prevent Chrome autofill
+  type="email"
+  className={`form-control ${errors.Email ? 'is-invalid' : ''}`}
+  placeholder="Email address"
+  value={personalInfo.Email}
+  onChange={handlePersonalInfoChange}
+  autoComplete="off" // Disable autocomplete
+  readOnly // Initially read-only to prevent autofill
+  onFocus={(e) => {
+    e.target.removeAttribute('readonly'); // Make writable on focus
+    if (!personalInfo.Email) {
+      e.target.value = ''; // Clear any autofilled data
+    }
+  }}
+  onBlur={() => handleBlur('Email')}
+/>
                     {errors.Email && <div className="invalid-feedback">{errors.Email}</div>}
                   </div>
                   <div className="col-md-4 col-12">

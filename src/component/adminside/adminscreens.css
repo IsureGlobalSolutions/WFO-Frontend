@@ -89,6 +89,15 @@ line-height: 18.79px;
 letter-spacing: 0%;
 border-radius: 20px;
 }
+.label-option{
+  color: #040F0F;
+  font-family: Poppins;
+font-weight: 500;
+font-size: 14.15px;
+line-height: 18.79px;
+letter-spacing: 0%;
+border-radius: 20px;
+}
 .form-control, .form-select {
   background-color: #ffffff;
   font-size: 15px;
